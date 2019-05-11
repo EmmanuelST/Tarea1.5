@@ -29,8 +29,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2Cap4", "Ejercicio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio5Cap4", "Ejercicio5Cap4\Ejercicio5Cap4.csproj", "{BE97151A-F106-4440-B042-C81C2299E7BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejericios", "Ejericios", "{7E0DDE09-F025-4C64-9704-3D27065D6049}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
