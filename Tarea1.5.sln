@@ -15,19 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio5cap2", "..\Ejerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicios", "..\Ejercicios\Ejercicios.csproj", "{1BFE1A7E-9894-4D8A-82BB-C4E3FA1812B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4Cap2", "Ejercicio4Cap2\Ejercicio4Cap2.csproj", "{AB18D7B9-44F8-4A35-B9BE-AC6983617098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio4Cap2", "Ejercicio4Cap2\Ejercicio4Cap2.csproj", "{AB18D7B9-44F8-4A35-B9BE-AC6983617098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1Cap3", "Ejercicio1Cap3\Ejercicio1Cap3.csproj", "{5463C31C-A0E7-4BD1-8E09-2A33C29DEE50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1Cap3", "Ejercicio1Cap3\Ejercicio1Cap3.csproj", "{5463C31C-A0E7-4BD1-8E09-2A33C29DEE50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3Cap3", "Ejercicio3Cap3\Ejercicio3Cap3.csproj", "{3249EF3E-3B99-44BB-B010-918579ED1747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio3Cap3", "Ejercicio3Cap3\Ejercicio3Cap3.csproj", "{3249EF3E-3B99-44BB-B010-918579ED1747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio5Cap3", "Ejercicio5Cap3\Ejercicio5Cap3.csproj", "{C0A5BB23-9023-4660-8233-B8AC4846F703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio5Cap3", "Ejercicio5Cap3\Ejercicio5Cap3.csproj", "{C0A5BB23-9023-4660-8233-B8AC4846F703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1Cap4", "Ejercicio1Cap4\Ejercicio1Cap4.csproj", "{8F74EE92-3AAF-4605-B50C-B41C13AEF3CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1Cap4", "Ejercicio1Cap4\Ejercicio1Cap4.csproj", "{8F74EE92-3AAF-4605-B50C-B41C13AEF3CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2Cap4", "Ejercicio2Cap4\Ejercicio2Cap4.csproj", "{C9D8BA80-4A0F-49DD-997A-49C82D66E83B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2Cap4", "Ejercicio2Cap4\Ejercicio2Cap4.csproj", "{C9D8BA80-4A0F-49DD-997A-49C82D66E83B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio5Cap4", "Ejercicio5Cap4\Ejercicio5Cap4.csproj", "{BE97151A-F106-4440-B042-C81C2299E7BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio5Cap4", "Ejercicio5Cap4\Ejercicio5Cap4.csproj", "{BE97151A-F106-4440-B042-C81C2299E7BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejericios", "Ejericios", "{7E0DDE09-F025-4C64-9704-3D27065D6049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
