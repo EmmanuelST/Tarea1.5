@@ -7,30 +7,59 @@ namespace Ejercicio5Cap3
         static void Main(string[] args)
         {
 
-            string nombre;
             float longitud;
             int lados;
+            float apotema;
+           
 
 
-            try
+            Console.WriteLine("\n\nQue desea hacer: ");
+            Console.WriteLine("\n\n\n1-Calcular el Perimetro de un poligono." +
+                "\n2-Calcular el area de un poligono." +
+                "\n3-Salir.");
+
+            switch (Console.ReadLine())
             {
+                case "1":
+                    Console.WriteLine("\n\nIngrese la cantidad de lados del Poligono: ");
+                    lados = int.Parse(Console.ReadLine());
+                    Console.WriteLine("\nIngrese la la longitud de los lados del Poligono:");
+                    longitud = float.Parse(Console.ReadLine());
 
-                Console.WriteLine("\n\nIngrese el nombre del poligono regular al \n" +
-                    "cual le desea calcular el perimetro: ");
+                    Console.WriteLine("\n\nEl perimetro del poligono es: "+
+                       perimetro(lados,longitud));
+                    break;
 
-                nombre = Console.ReadLine();
+                case "2":
+                    Console.WriteLine("\n\nIngrese la cantidad de lados del Poligono: ");
+                    lados = int.Parse(Console.ReadLine());
+                    Console.WriteLine("\nIngrese la la longitud de los lados del Poligono:");
+                    longitud = float.Parse(Console.ReadLine());
+                    Console.WriteLine("\nIngrese la la longitud del apotema del Poligono:");
+                    apotema = float.Parse(Console.ReadLine());
 
-                Console.WriteLine("\n\nIngrese la cantidad de lados que tiene el " + nombre + " :");
-                lados = int.Parse(Console.ReadLine());
+                    Console.WriteLine("\n\nEl area del poligono es: " +
+                       area(perimetro(lados, longitud),apotema));
+                    break;
 
-                Console.WriteLine("\n\nIngrese la longitud de los lados del " + nombre + " :");
-                longitud = float.Parse(Console.ReadLine());
-
-                Console.WriteLine("\n\n\nEl perimetro del " + nombre + " es: " + (lados * longitud));
+                default:
+                    Console.WriteLine("\nEsta no es una opcion valida.");
+                    break;
             }
-            catch (Exception e) { Console.WriteLine("\n\nHubo un erro en el formato de entradad de los datos."); }
+
 
            
         }
+
+        public static float perimetro(int lados,float longitud)
+        {
+            return (lados * longitud);
+        }
+
+        public static float area(float perimetro,float apotema)
+        {
+            return (apotema * perimetro)/2;
+        }
     }
+
 }
